@@ -193,6 +193,12 @@ button {
     margin-left: 170px;
 }
 
+button:hover {
+  background-color: #ffffff;
+  color: #1a5276;
+  transition: background-color 0.3s ease, color 0.3s ease-in-out;
+}
+
 #work {
   padding: 170px 40px 60px 200px;
   min-height: 100vh;
