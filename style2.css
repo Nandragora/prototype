@@ -1,0 +1,77 @@
+html {
+  font-family: 'IBM Plex Mono', monospace;
+  background-image: url(aset/Main2.webp)  ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  box-sizing: border-box;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.heading h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  padding-left: 40px;
+  letter-spacing: 0.03em;
+  font-family: 'Crimson Text', serif;
+  text-decoration: none;
+}
+
+.heading ul {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  list-style: none;
+    padding-right: 40px;
+}
+
+.heading ul img,
+.heading ul a {
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+  
+}
+
+.heading ul img:hover,
+.heading ul a:hover {
+  opacity: 1;
+}
+
+main{
+    padding: 100px 20px 20px;
+
+    
+}
+
+main a {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+}
